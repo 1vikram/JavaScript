@@ -32,3 +32,17 @@ function one(){
 }
 one()
 // test
+
+console.log(addOne(5));  // also run before function declaration  
+function addOne(num){
+    return num+1
+}
+// console.log(addOne(5));  // also run before function declaration  
+
+
+// sone time this is called as "expration"
+// console.log(addOne(5));  // can't run before function declaration  
+const addTwo = function(num){
+    return num+2
+}
+console.log(addTwo(5));  // can't run before function declaration  
