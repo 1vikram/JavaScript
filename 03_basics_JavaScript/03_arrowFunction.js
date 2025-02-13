@@ -8,16 +8,16 @@ const user = {
         console.log(this);         
     }
 }
-// console.log(user.rollNo);
-// console.log(this);
-// user.wellcomeMsg()
+console.log(user.rollNo);
+console.log(this);
+user.wellcomeMsg()
 
 // function me "this" ka use ni kiya jata hai 
 function one(){
     userName: "hitish sir"
     console.log(this)
 }
-// one()
+one()
 
 
 // arrow function
@@ -37,7 +37,9 @@ const addTwo = (num1, num2)=>{
 console.log(addTwo(6,7));
 
 // 3rd way to declar arrow function
+
 // const addThree =(num1,num2,num3) => num1+num2+num3
+
 // jb hum () ka use krte hai to "return" keyword ka use ni kiya jata h
 const addThree =(num1,num2,num3) => (num1+num2+num3)
 console.log(addThree(3,4,5))
