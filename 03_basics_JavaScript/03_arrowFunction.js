@@ -47,3 +47,5 @@ console.log(addThree(3,4,5))
 // access objects by arrow function
 const handleObject = () => ({userName: "vikram"})
 console.log(handleObject())
+
+// those functions are called "impleset return function" in which return keyword are are not used and must in arrow function
