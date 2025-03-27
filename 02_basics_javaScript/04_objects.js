@@ -42,13 +42,13 @@ console.log(student.student01); //kuch to esa hi hoga abhi pta ni kyu ni ho rha
 
 // Deconstructor
 
-const car = {
-    BMW_Colour: "white",
-    Beleno_colour: "yellow",
-    RollsRoys_colour: "Golden"
+const car_colour = {
+    BMW: "white",
+    Beleno: "yellow",
+    RollsRoys: "Golden"
 }
-//const {RollsRoys_colour} = car  // useless
-console.log(car.RollsRoys_colour);  // direct access propertiy of object
+//const {RollsRoys} = car_colour  // useless
+console.log(car_colour.RollsRoys);  // direct access propertiy of object
 
-const {RollsRoys_colour: RR} = car // distructor in object
+const {RollsRoys: RR} = car_colour // distructor in object
 console.log(RR);
